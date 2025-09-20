@@ -1,0 +1,140 @@
+*, 
+html{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+nav{
+  position: sticky;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem 1rem;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #00f;, 0 0 20px #00f, 0 0 40px #00f;
+}
+nav img{
+  width: 13%;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  font-family: "Segoe UI", Sans-Serif;
+  font-weight: 600;
+  color: #191919;
+  padding: 8px 0;
+  transition: all;
+  transition-duration: 300ms;
+  border-bottom: 2px solid #00f rgba(0,0);
+  text-shadow: 2px 2px 3px white;
+}
+nav ul li a:hover{
+  color: #00f;
+  border-bottom: 2px solid #00f;
+}
+
+/*navbar selesai*/
+
+.judul_index{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 0 0 10px grey;, 0 0 20px grey, 0 0 40px grey;
+}
+/*judul selesai*/
+
+.img_letdown{
+  max-width: 92%;
+  height: 92%;
+  margin: 15px;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: 0 0 10px grey;, 0 0 20px grey, 0 0 40px grey;
+}
+
+.awalan_index{
+margin-top: 30px;
+margin-bottom: 30px;
+}
+/*awalan selesai*/
+
+.liriklagu_index{
+  text-align: center;
+}
+.details_index{
+  border: 1px solid black;
+  box-shadow: 0 0 10px grey; 0 0 20px grey, 0 0 40px grey;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin: 10px;
+  line-height: 1.7;
+}
+.summary_index{
+  list-style: none;
+}
+/*lirik lagu selesai*/
+
+.conten2_index{}
+.ul_index{}
+.li_index{
+  margin: 20px;
+  letter-spacing: 1px;
+  line-height: 1.7;
+}
+details{
+  border: 1px solid black;
+  box-shadow: 0 0 10px grey; 0 0 20px grey, 0 0 40px grey;
+  border-radius: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  line-height: 1.7;
+}
+details[open]{
+  box-shadow: 0 0 10px grey;, 0 0 20px grey, 0 0 40px grey;
+}
+summary{
+  list-style: none;
+  text-align: center;
+}
+
+h2{
+  margin-top: 15px;
+  margin-bottom: 15px;;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+p{
+  margin: 20px;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  line-height: 1.7;
+}
+.p_special{
+  text-shadow: 0 0 10px grey; 0 0 20px grey, 0 0 40px grey;
+}
+/*INDEX SELESAI*/
+
+.judul_3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 0 0 10px grey;, 0 0 20px grey, 0 0 40px grey;
+}
+.aboutme{
+  border: 1px solid black;
+  border-radius: 12px;
+  margin-left: 15px;
+  margin-right: 15px;
+  box-shadow: 0 0 10px grey;, 0 0 20px grey, 0 0 40px grey;
+}
+
+
